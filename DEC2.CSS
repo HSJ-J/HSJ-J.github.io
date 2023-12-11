@@ -1,0 +1,418 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.gif {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+}
+.chinagif {
+  width: 100%;
+  height: 100vh;
+}
+.worldgif {
+  width: 100%;
+  height: 100vh;
+}
+.egyptgif {
+  width: 100%;
+  height: 100vh;
+}
+.canadagif {
+  width: 100%;
+  height: 100vh;
+}
+.map {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+}
+.wmap {
+  width: 100%;
+  height: 100vh;
+}
+.flag {
+  float: left;
+  width: 80px;
+  height: 50px;
+}
+#cn {
+  position: absolute;
+  top: 230%;
+  left: 75%;
+}
+.map img:hover {
+  height: 65px;
+  width: 100px;
+  transition: height 0.5s;
+  transition: width 0.5s;
+}
+#ca {
+  position: absolute;
+  top: 215%;
+  left: 25%;
+}
+
+#ba {
+  position: absolute;
+  top: 255%;
+  left: 35%;
+}
+
+#ai {
+  position: absolute;
+  top: 233%;
+  left: 55%;
+}
+
+#nuo {
+  position: absolute;
+  top: 210%;
+  left: 50%;
+}
+
+#gr {
+  position: absolute;
+  top: 225%;
+  left: 55%;
+}
+
+#mal {
+  position: absolute;
+  top: 245%;
+  left: 75%;
+}
+.intro {
+  width: 1000;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 20px;
+  height: 400px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.word {
+  width: 60%;
+  float: left;
+  word-spacing: 3px;
+  line-height: 30px;
+  vertical-align: top;
+}
+.word2 {
+  width: 60%;
+  float: right;
+  word-spacing: 3px;
+  line-height: 30px;
+  vertical-align: top;
+}
+img {
+  width: 600px;
+  height: 400px;
+}
+.img1 {
+  float: right;
+}
+.img2 {
+  float: left;
+}
+.fold-container {
+  perspective: 1000px;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  float: right;
+}
+
+.folded-image {
+  width: 600px;
+  height: 400px;
+  transition: transform 1s ease;
+  transform-style: preserve-3d;
+  float: right;
+}
+
+.folded-image:hover {
+  transform: rotateY(180deg);
+}
+
+.folded-image img {
+  width: 100%;
+  height: 100%;
+}
+.fold-container2 {
+  perspective: 1000px;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+
+.folded-image2 {
+  width: 600px;
+  height: 400px;
+  transition: transform 0.5s ease, scale 0.5s ease;
+  transform-style: preserve-3d;
+  float: left;
+}
+
+.folded-image2:hover {
+  transform: rotateY(0deg) scale(1.5);
+}
+
+.folded-image2 img {
+  width: 100%;
+  height: 100%;
+}
+.body1 {
+  margin: 0;
+  overflow: hidden;
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("world.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.center-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input,
+button {
+  margin-bottom: 16px;
+  padding: 8px;
+}
+.sign {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-left: 4px;
+}
+.background {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.countrynamebox {
+  width: 100%;
+  height: 100vh;
+}
+.countryname {
+  font-size: 1000%;
+  text-align: center;
+  line-height: 100vh;
+  margin: 0px;
+  color: white;
+  font-family: Vina Sans;
+}
+
+.logo {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(3, 242, 255);
+  opacity: 0.5;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+  z-index: 998;
+}
+
+.navbar a {
+  width: 10%;
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: rgb(76, 158, 175);
+}
+
+img:hover + .navbar,
+.navbar:hover {
+  transform: translateX(0);
+}
+#box1 {
+  width: 100%;
+  height: 200px;
+  transition: opacity 1s;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  opacity: 0.3;
+}
+
+#box1:hover {
+  opacity: 0.7;
+}
+#box2 {
+  width: 100%;
+  height: 200px;
+  transition: transform 1s;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  opacity: 0.3;
+}
+
+#box2:hover {
+  transform: translateX(100px);
+}
+#box3 {
+  width: 100%;
+  height: 200px;
+  transition: transform 1s;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  opacity: 0.3;
+}
+
+#box3:hover {
+  transform: scale(1.2);
+  animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(0.8);
+  }
+}
+#totop {
+  height: 30px;
+  float: right;
+  width: 30px;
+  position: fixed;
+  top: 40%;
+  right: 0;
+  z-index: 99;
+  border: none;
+  background-color: rgba(0, 166, 255, 0.1);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#tobottom {
+  height: 30px;
+  float: right;
+  width: 30px;
+  position: fixed;
+  top: 46.5%;
+  right: 0;
+  z-index: 99;
+  border: none;
+  background-color: rgba(0, 166, 255, 0.1);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#tomiddle {
+  height: 30px;
+  float: right;
+  width: 30px;
+  position: fixed;
+  top: 53%;
+  right: 0;
+  z-index: 99;
+  border: none;
+  background-color: rgba(0, 166, 255, 0.1);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#tomap {
+  height: 30px;
+  float: right;
+  width: 30px;
+  position: fixed;
+  top: 59.5%;
+  right: 0;
+  z-index: 99;
+  border: none;
+  background-color: rgba(0, 166, 255, 0.1);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.text {
+  color: lightgreen;
+  text-decoration: none;
+}
+#totop:hover {
+  background-color: gray;
+}
+#tobottom:hover {
+  background-color: gray;
+}
+img {
+  width: 100%;
+  height: 300px;
+}
+#tomiddle:hover {
+  background-color: gray;
+}
+#tomap:hover {
+  background-color: gray;
+}
+#new {
+  color: white;
+  font-size: 50px;
+}
+h1 {
+  font-family: Dancing Script;
+  text-transform: capitalize;
+}
+p {
+  font-family: Nova Square;
+}
