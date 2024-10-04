@@ -1,0 +1,293 @@
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebThin.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebThin.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebThin.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebThin.woff2")
+      format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebLight.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebLight.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebLight.woff2")
+      format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebRegular.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebRegular.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebRegular.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebMedium.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebMedium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebMedium.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebMedium.woff2")
+      format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBold.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBold.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBold.woff2")
+      format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBlack.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBlack.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBlack.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBlack.woff2")
+      format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebThinItalic.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebThinItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebThinItalic.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebThinItalic.woff2")
+      format("woff2");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebLightItalic.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebLightItalic.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebLightItalic.woff2")
+      format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebRegularItalic.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebRegularItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebRegularItalic.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebRegularItalic.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebMediumItalic.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebMediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebMediumItalic.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebMediumItalic.woff2")
+      format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBoldItalic.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBoldItalic.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBoldItalic.woff2")
+      format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Stratum2";
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBlackItalic.eot");
+  src: url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBlackItalic.woff")
+      format("woff"),
+    url("https://cdn.akamai.steamstatic.com/apps/csgo/fonts/Stratum2WebBlackItalic.woff2")
+      format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #090d13;
+  color: #fff;
+  font-family: "Stratum2", sans-serif;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+#event_header {
+  max-width: 100%;
+  height: auto;
+}
+.maincontent {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vw;
+}
+.navbar {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding: 0px 14vw;
+  padding-top: 40px;
+  border-bottom: 3px solid #313131;
+  background-color: #090d13;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbara {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.otherwebpage {
+  width: 48%;
+  height: 100%;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #828282;
+  background-color: #222;
+}
+.nowwebpage {
+  color: #fff;
+  background-color: #313131;
+  border-top: 2px solid #646566;
+}
+.text {
+  padding: 0px 50px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 150%;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Stratum2", sans-serif;
+  font-weight: 700;
+}
+hr {
+  border: 5px solid rgb(255, 255, 255, 0.8);
+  width: 80%;
+  border-radius: 5px;
+}
+.Game {
+  width: 100%;
+  justify-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  font-family: "Stratum2", sans-serif;
+}
+.Gamea {
+  width: 100%;
+  height: 275px;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+  transition-property: filter, transform, background-size, opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+.Gamea:hover {
+  transform: scale(1.05);
+}
+.Gameimg {
+  height: 100%;
+  width: auto;
+}
+.GameIntroduction {
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.date {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+.gamename {
+  margin: 0px 10px 8px 0px;
+  font-family: "Stratum2", sans-serif;
+  font-weight: semi-bold;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-size: 32px;
+  line-height: 115%;
+  color: #fff;
+}
+.gametext {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  z-index: 2;
+  margin-bottom: 0px;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-property: height, opacity, transform;
+}

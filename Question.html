@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question</title>
+    <link rel="icon" type="image/png" href="images/512x512.png" />
+    <link rel="stylesheet" href="CS.css" />
+    <style>
+      hr {
+        margin-top: 50px;
+      }
+      label {
+        font-size: 30px;
+      }
+      input {
+        font-size: 30px;
+      }
+      select {
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="event_header" src="images/event_header.png" />
+    <div class="maincontent">
+      <div class="navbar">
+        <div class="navbara">
+          <a class="otherwebpage" href="Gameplay.html">Gameplay</a>
+          <a class="otherwebpage" href="Main series.html">Main series</a>
+          <a class="otherwebpage" href="Major.html">Major</a>
+          <a class="otherwebpage nowwebpage" href="Question.html">Question</a>
+        </div>
+      </div>
+      <div style="width: 100%">
+        <div class="text">
+          <h1>Question</h1>
+          <center>
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+              <br />
+              <br />
+              <label>Do you play Counter-Strike?</label>
+              <br />
+              <input
+                type="radio"
+                id="Do you play Counter-Strike?Yes"
+                name="Do you play Counter-Strike?"
+                value="Yes"
+                checked
+              />
+              <label for="Do you play Counter-Strike?Yes">Yes</label>
+              <input
+                type="radio"
+                id="Do you play Counter-Strike?No"
+                name="Do you play Counter-Strike?"
+                value="Yes"
+              />
+              <label for="Do you play Counter-Strike?No">No</label>
+              <br />
+              <br />
+              <label for="gaming time">Your CS gaming time:</label>
+              <br />
+              <select id="gaming time" name="gaming time">
+                <option value="0-100h">0-100h</option>
+                <option value="100-500h">100-500h</option>
+                <option value="500-1000h">500-1000h</option>
+                <option value="1000h-2000h">1000h-2000h</option>
+                <option value=">2000h">&gt;2000h</option>
+              </select>
+              <br />
+              <br />
+              <label>Do you watch Counter-Strike matches?</label>
+              <br />
+              <input
+                type="radio"
+                id="Do you watch Counter-Strike matches?Yes"
+                name="Do you watch Counter-Strike matches?"
+                value="Yes"
+                checked
+              />
+              <label for="Do you watch Counter-Strike matches?Yes">Yes</label>
+              <input
+                type="radio"
+                id="Do you watch Counter-Strike matches?No"
+                name="Do you watch Counter-Strike matches?"
+                value="Yes"
+              />
+              <label for="Do you watch Counter-Strike matches?No">No</label>
+              <br />
+              <br />
+              <label for="team">Which team do you like?</label>
+              <br />
+              <input type="text" id="team" name="team" required />
+              <br />
+              <br />
+              <input type="submit" value="submit" />
+            </form>
+          </center>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
