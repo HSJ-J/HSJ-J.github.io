@@ -1,0 +1,177 @@
+html,
+body {
+  overflow: hidden;
+  background: #fff;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+}
+
+canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: none;
+  transform-origin: 0 0;
+}
+
+#弹出信息 {
+  position: fixed;
+  width: 80vw;
+  font-size: 5vw;
+  color: #fff;
+  height: 10vw;
+  left: 10vw;
+  top: calc(50vh - 5vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.6s;
+  filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.7));
+}
+
+.粘贴信息 {
+  background: #333;
+  color: #fff;
+  border-radius: 1vw;
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44vw;
+  font-size: 2vw;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.选择按钮背景 {
+  width: 44vw;
+  height: 6vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.选择按钮 {
+  font-size: 3vw;
+  height: 6vw;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 1vw;
+}
+
+.连接信息 {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  opacity: 1;
+  transition: 1s;
+}
+
+.大按钮 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50% 50%;
+  font-size: 4vw;
+  width: 8vw;
+  height: 8vw;
+}
+
+.大按钮_白色 {
+  background: #ddd;
+  color: #222;
+}
+
+.大按钮_黑色 {
+  background: #222;
+  color: #ddd;
+}
+
+.放大 {
+  left: 2vw;
+  top: calc(50vh - 14vw);
+}
+
+.中心位置 {
+  left: 2vw;
+  top: calc(50vh - 4vw);
+}
+
+.缩小 {
+  left: 2vw;
+  top: calc(50vh + 6vw);
+}
+
+@media screen and (orientation: landscape) {
+  .大按钮 {
+    font-size: 4vh;
+    width: 8vh;
+    height: 8vh;
+  }
+  .放大 {
+    left: 2vh;
+    top: calc(50vh - 14vh);
+  }
+
+  .中心位置 {
+    left: 2vh;
+    top: calc(50vh - 4vh);
+  }
+
+  .缩小 {
+    left: 2vh;
+    top: calc(50vh + 6vh);
+  }
+}
+.用户名输入 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  font-size: 2vw;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2vw;
+  border-radius: 1vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.用户名输入 input {
+  padding: 0.5vw;
+  font-size: 1.5vw;
+  text-align: center;
+  width: 20vw;
+}
+
+.用户名输入 button {
+  padding: 0.5vw 1vw;
+  font-size: 1.5vw;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}
+
+.用户名输入 button:hover {
+  background-color: #0056b3;
+}

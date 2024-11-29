@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>LAN Gomoku</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="WZQ.css" />
+  </head>
+  <body>
+    <canvas id="canvas" class="canvas"></canvas>
+
+    <div class="大按钮 大按钮_白色 放大" onclick="放大()">+</div>
+    <div class="大按钮 大按钮_黑色 中心位置" onclick="中心位置()">O</div>
+    <div class="大按钮 大按钮_白色 缩小" onclick="缩小()">-</div>
+
+    <div class="用户名输入">
+      <input type="text" id="用户名" placeholder="Enter your name" />
+      <button onclick="保存名称()">save</button>
+    </div>
+
+    <div class="连接信息" style="display: none" onclick="开始游戏后关闭界面()">
+      <div class="选择按钮背景">
+        <div
+          class="选择按钮"
+          style="background: #ff0000"
+          onclick="选择主机端()"
+        >
+          Host
+        </div>
+        <div
+          class="选择按钮"
+          style="background: #0000ff"
+          onclick="选择客户端()"
+        >
+          Client
+        </div>
+      </div>
+
+      <div class="粘贴信息" onclick="粘贴连接信息()">
+        Paste connection information
+      </div>
+    </div>
+
+    <div id="弹出信息">No message</div>
+
+    <script src="WZQ英文.js"></script>
+  </body>
+</html>
